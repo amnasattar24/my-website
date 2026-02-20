@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Azka Rubab | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- <header>
+    <div class="container">
+        <h1>Azka Rubab</h1>
+        <p>I'm a Mathematician</p>
+    </div>
+</header> -->
+
+<!-- <nav>
+    <div class="container">
+        <h1>Azka Rubab</h1>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav> -->
+
+<nav>
+    <div class="container nav-flex">
+        <h1>Azka Rubab</h1>
+
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO SECTION WITH BACKGROUND VIDEO -->
+<section class="hero">
+    <video autoplay muted loop class="bg-video">
+        <source src="project.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="hero-content">
+        <h1>I'm a Developer</h1>
+        <p>Creating innovative and user-friendly digital experiences.</p>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>
+            I am a dedicated BS Mathematics student in my 8th semester with a strong foundation in analytical thinking, problem-solving, and computational techniques. My academic background has equipped me with expertise in mathematical modeling, data analysis, and programming. I have practical experience in MS Excel, MATLAB, Python, and web development (HTML, CSS, JavaScript). I am passionate about applying mathematical concepts to real-world challenges and delivering accurate, efficient, and high-quality solutions. My goal is to continuously enhance my technical skills and contribute professionally in the fields of data analysis, software development, and research.
+        </p>
+    </div>
+</section>
+
+<section id="services" class="section bg-light">
+    <div class="container">
+        <h2>My Services</h2>
+        <div class="services">
+
+            <div class="card">MS Excel</div>
+            <div class="card">MS Word</div>
+            <div class="card">PDF Editing</div>
+            <div class="card">PowerPoint</div>
+            <div class="card">Mathematica & MATLAB</div>
+            <div class="card">Python Programming</div>
+            <div class="card">HTML, CSS, JavaScript</div>
+            <div class="card">Data Entry</div>
+
+        </div>
+    </div>
+</section>
+
+<!-- <section id="contact" class="section">
+    <div class="container">
+        <h2>Contact Me</h2>
+
+        <p><strong>Phone:</strong> 03046070033</p>
+        <p><strong>Email:</strong> azkarubab870@gmail.com</p>
+
+        <div class="buttons">
+            <a href="https://wa.me/923046070033" target="_blank" class="btn">WhatsApp</a>
+            <a href="mailto:azkarubab870@gmail.com" class="btn">Gmail</a>
+            <button onclick="linkedinAlert()" class="btn">LinkedIn</button>
+        </div>
+    </div>
+</section> -->
+
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm" class="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <p id="formMessage" class="form-message"></p>
+        <div class="contact-buttons">
+            <a href="https://wa.me/923046070033" target="_blank" class="contact-btn whatsapp">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+
+            <a href="mailto:azkarubab870@gmail.com" class="contact-btn gmail">
+                <i class="fas fa-envelope"></i> Gmail
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Azka Rubab | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
